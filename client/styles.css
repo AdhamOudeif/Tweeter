@@ -1,0 +1,21 @@
+/*class to center text*/
+.title {
+    text-align: center;
+}
+
+/* class to center and improve form design */
+.tweet-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* class to center loading animation  */
+.loading{
+   text-align: center;
+}
+
+/* class to center and resize 'tweets' */
+.tweets {
+    width: 80%;
+    margin: auto;
+}

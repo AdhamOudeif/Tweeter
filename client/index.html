@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tweeter - The Twitter Clone</title>
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <!--CSS Framework from getskelleton to imitate Twitter UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css"><!--Custom CSS-->
+</head>
+<body>
+ <header>
+     <h1 class="title">Tweeter - The Twitter Clone </h1>
+ </header>
+ <!--Create From to input user name and tweet-->
+ <main>
+     <form class="tweet-form" >
+       <label for="name">Name</label>
+       <input class="u-full-width" type="text" id="name" name="name" >
+       <label for="content">Tweet</label>
+       <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+       <button class="button-primary">Send your Tweet</button>
+    </form>
+    <div class="loading">
+        <img src="loading.gif" alt="">
+    </div>
+    <div class ="tweets">
+
+    </div>
+ </main>
+ <script src="client.js"></script>
+</body>
+</html>
