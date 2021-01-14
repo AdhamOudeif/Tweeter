@@ -1,0 +1,20 @@
+{
+  "name": "Tweeter",
+  "version": "1.0.0",
+  "description": "A Twitter Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdhamOudeif/Tweeter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdhamOudeif/Tweeter/issues"
+  },
+  "homepage": "https://github.com/AdhamOudeif/Tweeter#readme"
+}
