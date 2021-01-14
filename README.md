@@ -1,2 +1,2 @@
 # Tweeter
-A Twitter clone that demonstrates the full stack. 
+A basic Twitter clone that demonstrates the full stack. 
